@@ -6,6 +6,4 @@ Refer
 Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap
 https://arxiv.org/pdf/1706.01427.pdf
 
-Please refer to the report for the details
-
-[a link](https://github.com/Kaustubh1Verma/Relational-Reasoning/blob/master/LearnOrBurn_Hackathon_Writeup.pdf)
+Please refer to the report for the details [Report](https://github.com/Kaustubh1Verma/Relational-Reasoning/blob/master/LearnOrBurn_Hackathon_Writeup.pdf)
