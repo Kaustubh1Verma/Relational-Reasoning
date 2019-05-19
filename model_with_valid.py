@@ -54,7 +54,7 @@ def get_label(data_real):
 		x_text.append(q['question'])
 	return x_text,y,num_labels,labels	
 
-####################   MODEL AA GAYA     ###########################
+####################   MODEL     ###########################
 
 def process_image(x):
     target_height, target_width = 128, 128
@@ -144,6 +144,12 @@ img_rows, img_cols = 320, 480
 image_input_shape = (img_rows, img_cols, 3)
 path = 'CLEVR_v1.0'
 questions_path = path + '/questions/CLEVR_' + 'train' + '_questions.json'
+
+
+### save training data questions file as pickle by reading this way###
+#with open(questions_path) as f:
+#    data = json.load(f)
+#data_real = data['questions']
 
 with open("real_data.pickle", 'rb') as f:
     data_real = pickle.load(f)
