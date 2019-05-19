@@ -19,3 +19,7 @@ Images are processed using a CNN, while the questions are processed using an LST
 ## Experiments
 Training the network with different no of samples(questions) such 200000/60000,etc. although the training part is not completed.Would take large no of epochs.
 
+### Sort of CLVER implementation
+This is the implementation on sort of clver dataset which is being generated inside the code. Needs no extra file or data other than notebook itself.
+Good results are obtained on relational and non-relational questions.
+
