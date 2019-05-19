@@ -9,7 +9,7 @@ https://arxiv.org/pdf/1706.01427.pdf
 Please refer to the report for the details [Report](https://github.com/Kaustubh1Verma/Relational-Reasoning/blob/master/LearnOrBurn_Hackathon_Writeup.pdf)
 
 ## CLEVR dataset (https://cs.stanford.edu/people/jcjohns/clevr/).
-Download the dataset and put it in the home folder as the other codes.
+Download the Cleverv1.0 dataset and put it in the home folder as the other codes.
 
 ## Architecture
 Images are processed using a CNN, while the questions are processed using an LSTM.  These tensors are then decomposed into objects and fed as input into the RN module.
